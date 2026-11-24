@@ -2,6 +2,7 @@ package zona_fit.controller;
 
 
 import zona_fit.data.ClienteDAO;
+import zona_fit.data.IClienteDAO;
 import zona_fit.domain.Cliente;
 
 import java.util.List;
@@ -10,7 +11,7 @@ import java.util.Scanner;
 
 public class ZonaFitController {
 
-    private static final ClienteDAO clienteDAO = new ClienteDAO();
+    private static final IClienteDAO clienteDAO = new ClienteDAO();
 
     public static void app(){
         Scanner sc = new Scanner(System.in);
