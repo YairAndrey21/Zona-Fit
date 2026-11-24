@@ -79,8 +79,6 @@ public class ZonaFitController {
     public static void buscarClientePorId(Cliente cliente) {
         if (!clienteDAO.buscarClientePorId(cliente)) {
             System.out.println("Cliente no encontrado.");
-        }else{
-            System.out.println("Cliente encontrado: ");
         }
     }
 
