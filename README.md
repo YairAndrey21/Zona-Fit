@@ -1,6 +1,6 @@
 # ZonaFit 🏋️‍♂️
 
-ZonaFit es una aplicación de consola (CLI) desarrollada en Java para la gestión básica de clientes de un centro de entrenamiento o gimnasio. El sistema permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) conectándose a una base de datos relacional.
+ZonaFit es una aplicación de consola (CLI) desarrollada en Java para la gestión básica de clientes de un centro de entrenamiento o gimnasio. El sistema permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) conectándose a una base de datos relacional (MySql) mediante sentencias JDBC.
 
 ## 🚀 Tecnologías y Herramientas
 
